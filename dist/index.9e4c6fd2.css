@@ -1,0 +1,116 @@
+#title1 {
+  background-color: #5f9ea0;
+}
+
+.header {
+  justify-content: space-between;
+  width: auto;
+  height: 6rem;
+  display: flex;
+}
+
+.logo {
+  width: 5rem;
+  height: 5rem;
+}
+
+.navitems {
+  margin-right: 5rem;
+}
+
+a {
+  color: #000;
+}
+
+.navitems > ul {
+  justify-content: flex-end;
+  gap: 2rem;
+  font-size: larger;
+  list-style: none;
+  display: flex;
+}
+
+.cardContainer {
+  background-color: #fff;
+  width: 20rem;
+  height: 38vh;
+}
+
+.restroname {
+  text-align: left;
+  margin-left: .8rem;
+}
+
+.restroname > p {
+  color: #4b4c4e;
+  margin-top: -1rem;
+  font-size: small;
+  font-style: italic;
+  font-weight: lighter;
+}
+
+.cardContainer:hover {
+  box-shadow: 1rem;
+  border: 2px solid #d3d5df;
+}
+
+.cardImage {
+  border-radius: 10px;
+  width: 15rem;
+  height: 10rem;
+  margin-top: .5rem;
+}
+
+.imageContainer {
+  justify-content: center;
+  display: flex;
+}
+
+.ratings {
+  color: #4b4c4e;
+  align-items: center;
+  gap: 1rem;
+  margin-top: -1.5rem;
+  margin-left: .8rem;
+  font-size: .8rem;
+  display: flex;
+}
+
+.restaurantList {
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+  margin: auto;
+  display: inline-flex;
+}
+
+.root {
+  width: auto;
+}
+
+.Searchbox {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 20px;
+  display: flex;
+}
+
+.Searchbox > input {
+  width: 40rem;
+  height: 1.5rem;
+}
+
+.btn {
+  color: #fff;
+  text-align: center;
+  box-sizing: border-box;
+  background-color: red;
+  border-radius: 10px;
+  margin-left: 10px;
+  padding-inline: 15px;
+  font-family: Lucida Sans;
+  font-size: 15px;
+  font-weight: 600;
+}
+
+/*# sourceMappingURL=index.9e4c6fd2.css.map */

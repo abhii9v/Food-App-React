@@ -1,0 +1,106 @@
+.header {
+  display: flex;
+  height: 6rem;
+  justify-content: space-between;
+  width: auto;
+}
+
+.logo {
+  height: 5rem;
+  width: 5rem;
+}
+.navitems {
+  margin-right: 5rem;
+}
+a {
+  color: black;
+}
+.navitems > ul {
+  font-size: larger;
+  list-style: none;
+  display: flex;
+  gap: 2rem;
+  justify-content: flex-end;
+}
+
+.cardContainer {
+  height: 38vh;
+  width: 20rem;
+  background-color: #ffffff;
+}
+.restroname {
+  text-align: left;
+  margin-left: 0.8rem;
+}
+.restroname > p {
+  margin-top: -1rem;
+  font-weight: lighter;
+  font-style: italic;
+  color: #4b4c4e;
+  font-size: small;
+}
+.cardContainer:hover {
+  border: 2px solid #d3d5df;
+  box-shadow: 1rem;
+}
+
+.cardImage {
+  height: 10rem;
+  width: 15rem;
+  border-radius: 10px;
+  margin-top: 0.5rem;
+}
+.imageContainer {
+  display: flex;
+  justify-content: center;
+}
+
+.ratings {
+  display: flex;
+  margin-left: 0.8rem;
+}
+.ratings {
+  margin-top: -1.5rem;
+  display: flex;
+  color: #4b4c4e;
+  gap: 1rem;
+  align-items: center;
+  font-size: 0.8rem;
+}
+
+.restaurantList {
+  display: inline-flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+  margin: auto;
+}
+
+.root {
+  width: auto;
+}
+
+.Searchbox {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 20px;
+  display: flex;
+}
+
+.Searchbox > input {
+  width: 40rem;
+  height: 1.5rem;
+}
+
+.btn {
+  margin-left: 10px;
+  padding-inline: 15px;
+  font-size: 15px;
+  background-color: red;
+  color: #ffffff;
+  font-family: "Lucida Sans";
+  font-weight: 600;
+  border-radius: 10px;
+  text-align: center;
+  box-sizing: border-box;
+}
