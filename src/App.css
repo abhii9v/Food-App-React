@@ -71,7 +71,7 @@ a {
 .restaurantList {
   display: inline-flex;
   flex-wrap: wrap;
-  justify-content: center;
+  justify-content: space-around;
   gap: 10px;
   margin: auto;
 }
@@ -103,4 +103,22 @@ a {
   border-radius: 10px;
   text-align: center;
   box-sizing: border-box;
+}
+
+/* Shimmer effect CSS */
+
+.Shimmercard {
+  width: 30vh;
+}
+.ShimmerContainer {
+  width: auto;
+  display: flex;
+  gap: 40px;
+  margin: 20px;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.ShimmerSearch {
+  margin-left: 2vh;
+  width: 80vh;
 }

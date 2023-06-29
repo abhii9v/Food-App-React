@@ -10,16 +10,16 @@ function Header() {
       <div className="navitems">
         <ul>
           <li>
-            <a href="#">Home</a>
+            <a href="/">Home</a>
           </li>
           <li>
-            <a href="#">About</a>
+            <a href="/">About</a>
           </li>
           <li>
-            <a href="#">Contact</a>
+            <a href="/">Contact</a>
           </li>
           <li>
-            <a href="#">Support</a>
+            <a href="/">Support</a>
           </li>
         </ul>
       </div>
