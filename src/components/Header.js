@@ -1,7 +1,13 @@
 import React from "react";
-
+import { useState } from "react";
 import logo from "../logo.png";
+
+const loggedInUser = () => {
+  return true;
+};
+
 function Header() {
+  const [isLoggedIn, setisLoggedIn] = useState(false);
   return (
     <div className="header">
       <div>
@@ -21,6 +27,11 @@ function Header() {
           <li>
             <a href="/">Support</a>
           </li>
+          {isLoggedIn ? (
+            <button onClick={() => setisLoggedIn(false)}>Logout</button>
+          ) : (
+            <button onClick={() => setisLoggedIn(true)}>Login</button>
+          )}
         </ul>
       </div>
     </div>

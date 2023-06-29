@@ -27189,7 +27189,13 @@ var _react = require("react");
 var _reactDefault = parcelHelpers.interopDefault(_react);
 var _logoPng = require("../logo.png");
 var _logoPngDefault = parcelHelpers.interopDefault(_logoPng);
+var _s = $RefreshSig$();
+const loggedInUser = ()=>{
+    return true;
+};
 function Header() {
+    _s();
+    const [isLoggedIn, setisLoggedIn] = (0, _react.useState)(false);
     return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
         className: "header",
         children: [
@@ -27199,12 +27205,12 @@ function Header() {
                     className: "logo"
                 }, void 0, false, {
                     fileName: "src/components/Header.js",
-                    lineNumber: 8,
+                    lineNumber: 14,
                     columnNumber: 9
                 }, this)
             }, void 0, false, {
                 fileName: "src/components/Header.js",
-                lineNumber: 7,
+                lineNumber: 13,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -27215,34 +27221,6 @@ function Header() {
                             children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
                                 href: "/",
                                 children: "Home"
-                            }, void 0, false, {
-                                fileName: "src/components/Header.js",
-                                lineNumber: 13,
-                                columnNumber: 13
-                            }, this)
-                        }, void 0, false, {
-                            fileName: "src/components/Header.js",
-                            lineNumber: 12,
-                            columnNumber: 11
-                        }, this),
-                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
-                            children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
-                                href: "/",
-                                children: "About"
-                            }, void 0, false, {
-                                fileName: "src/components/Header.js",
-                                lineNumber: 16,
-                                columnNumber: 13
-                            }, this)
-                        }, void 0, false, {
-                            fileName: "src/components/Header.js",
-                            lineNumber: 15,
-                            columnNumber: 11
-                        }, this),
-                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
-                            children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
-                                href: "/",
-                                children: "Contact"
                             }, void 0, false, {
                                 fileName: "src/components/Header.js",
                                 lineNumber: 19,
@@ -27256,7 +27234,7 @@ function Header() {
                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
                             children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
                                 href: "/",
-                                children: "Support"
+                                children: "About"
                             }, void 0, false, {
                                 fileName: "src/components/Header.js",
                                 lineNumber: 22,
@@ -27266,25 +27244,69 @@ function Header() {
                             fileName: "src/components/Header.js",
                             lineNumber: 21,
                             columnNumber: 11
+                        }, this),
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
+                            children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
+                                href: "/",
+                                children: "Contact"
+                            }, void 0, false, {
+                                fileName: "src/components/Header.js",
+                                lineNumber: 25,
+                                columnNumber: 13
+                            }, this)
+                        }, void 0, false, {
+                            fileName: "src/components/Header.js",
+                            lineNumber: 24,
+                            columnNumber: 11
+                        }, this),
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
+                            children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
+                                href: "/",
+                                children: "Support"
+                            }, void 0, false, {
+                                fileName: "src/components/Header.js",
+                                lineNumber: 28,
+                                columnNumber: 13
+                            }, this)
+                        }, void 0, false, {
+                            fileName: "src/components/Header.js",
+                            lineNumber: 27,
+                            columnNumber: 11
+                        }, this),
+                        isLoggedIn ? /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("button", {
+                            onClick: ()=>setisLoggedIn(false),
+                            children: "Logout"
+                        }, void 0, false, {
+                            fileName: "src/components/Header.js",
+                            lineNumber: 31,
+                            columnNumber: 13
+                        }, this) : /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("button", {
+                            onClick: ()=>setisLoggedIn(true),
+                            children: "Login"
+                        }, void 0, false, {
+                            fileName: "src/components/Header.js",
+                            lineNumber: 33,
+                            columnNumber: 13
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "src/components/Header.js",
-                    lineNumber: 11,
+                    lineNumber: 17,
                     columnNumber: 9
                 }, this)
             }, void 0, false, {
                 fileName: "src/components/Header.js",
-                lineNumber: 10,
+                lineNumber: 16,
                 columnNumber: 7
             }, this)
         ]
     }, void 0, true, {
         fileName: "src/components/Header.js",
-        lineNumber: 6,
+        lineNumber: 12,
         columnNumber: 5
     }, this);
 }
+_s(Header, "jxfm76+usr7FX/u7tGPnmX3PXw8=");
 _c = Header;
 exports.default = Header;
 var _c;
